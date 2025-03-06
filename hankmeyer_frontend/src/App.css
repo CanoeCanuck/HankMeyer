@@ -1,0 +1,84 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+a.bloglink{
+  color: #FF3B01;
+}a.bloglink:hover {
+  color: #FBBE00;
+  text-decoration: underline;
+}
+.welcomepicture {
+  width: 22%;
+  padding: 0px 10px 10px 0px;
+  min-width: 120px;
+}
+.websitepicture {
+  width: 22%;
+  padding: 0px 10px 10px 0px;
+  min-width: 120px;
+}
+.welcometext {
+  padding: 0px 10px 10px 10px;
+}
+.schnauzers {
+  border: 2px solid #c4c4c47c;
+  padding-top: 8px;
+}
+.frogs {
+  background-color: #c4c4c47c;
+  border: 2px solid #9B9D9E;
+  padding-top: 8px;
+}
+.dogs {
+  background-color: #eeeeee;
+  border: 2px solid #c4c4c47c;
+  padding-top: 8px;
+}
+body {
+  background-color: #eeeeee !important;
+}
+.titles {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.subtitles {
+  font-size: smaller !important;
+}
+a.footerlinks{
+  text-decoration: none;
+}

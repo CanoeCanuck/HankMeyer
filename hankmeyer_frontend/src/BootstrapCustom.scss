@@ -1,0 +1,10 @@
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+  "primary": #0074d9,
+    "danger": teal
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.scss"
