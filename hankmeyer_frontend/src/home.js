@@ -66,7 +66,7 @@ export class Home extends Component {
                     <p>A little about me- I work in the tech industry but have a passion for the outdoors.</p>
                     <p>Canoe tripping is one of my favourite pastimes, along with some woodworking here and there.</p>
                     <p>On the tech side you can find me working on hobby projects, or messing about with networking and radios outside of work. Keep scrolling to see more about my web projects.</p>
-                    <p>Want to get in touch? You can use this <a href="/contact" target="_blank" className="bloglink">Contact Form</a>. Alternatively, Email Direct at <img src="https://www.canoecanuck.com/wp-cms/wp-content/uploads/2013/08/email1-1.png" width="150" alt="Hanks Email Address" title="Hanks Email Address"/></p>
+                    <p>Want to get in touch? You can use this <a href="/contact" target="_blank" className="bloglink">Contact Form</a>.</p>
                 </div>
 
                 </div></div>
@@ -100,14 +100,14 @@ export class Home extends Component {
                     </Figure>
                 </div>
                 </div></div>
-                <div className='frogs'><div className='container'><h3>Web Dev</h3>
+                <div className='frogs'><div className='container'><h3>Web Dev <a href="https://github.com/CanoeCanuck" target="_blank" className="footerlinks"><i className="bi bi-github"> </i></a></h3>
                         <ul><li>I dabble in some web development. For example, this site is built in React with bootstrap for styling.</li>
                         <li>In the past I have done some personal projects in PHP/MySQL.</li>
                         <li>Some of those include: AJAX RSVP form, HanksHosts.com, Movie Database, Screenshot Uploader.</li>
                         <li>Professionally, I work with SQL Server and debugging ASP.Net Applications.</li></ul>     
                 </div></div>
                 <div className='dogs'><div className='container'><h3>HomeLab</h3>
-                        <ul><li>I run a homelab where I self-host my websites and experiment with a variety of docker containers.</li>
+                        <ul><li>I run a homelab where I self-host utilities and experiment with a variety of docker containers.</li>
                         <li>Here are some of the Docker containers I work with for home automation and experimentation:
                             <ul>
                             <li><a href="https://registry.hub.docker.com/r/linuxserver/paperless-ngx/" target="_blank">linuxserver/paperless-ngx</a> - Index your scanned documents and store metadata.</li>
